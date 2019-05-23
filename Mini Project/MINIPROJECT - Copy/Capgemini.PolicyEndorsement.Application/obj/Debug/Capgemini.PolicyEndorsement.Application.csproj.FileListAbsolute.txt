@@ -1,0 +1,192 @@
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe.config
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\System.Data.SqlServerCe.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.xml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll.config
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\App.g.cs
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.cache
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.lref
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.baml
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.g.resources
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.Properties.Resources.resources
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.GenerateResource.cache
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CoreCompileInputs.cache
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CopyComplete
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.pdb
+C:\C#\MINIPROJECT\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csprojAssemblyReference.cache
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe.config
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.pdb
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\System.Data.SqlServerCe.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.pdb
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.pdb
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.pdb
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.xml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.pdb
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll.config
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csprojAssemblyReference.cache
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\App.g.cs
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.cache
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.lref
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.baml
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.g.resources
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.Properties.Resources.resources
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.GenerateResource.cache
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CoreCompileInputs.cache
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CopyComplete
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\C#\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe.config
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Application.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\System.Data.SqlServerCe.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.BusinessLayer.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Entities.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.Exceptions.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.xml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.pdb
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\bin\Debug\Capgemini.PolicyEndorsement.DataAccessLayer.dll.config
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csprojAssemblyReference.cache
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\App.g.cs
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.cache
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application_MarkupCompile.lref
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddCustomer.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddPolicy.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AddProducts.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\AdminHomepage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerDetails.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\CustomerHomepage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementApprovalPage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\EndorsementPageAdmin.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginGen.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\LoginPage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\MainWindow.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\PolicyPage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\SearchPolicy.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetails.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\TransactionDetailsID.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\UpdatePolicyPage.baml
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.g.resources
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.Properties.Resources.resources
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.GenerateResource.cache
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CoreCompileInputs.cache
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.csproj.CopyComplete
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.exe
+C:\Mini Project\MINIPROJECT - Copy\Capgemini.PolicyEndorsement.Application\obj\Debug\Capgemini.PolicyEndorsement.Application.pdb

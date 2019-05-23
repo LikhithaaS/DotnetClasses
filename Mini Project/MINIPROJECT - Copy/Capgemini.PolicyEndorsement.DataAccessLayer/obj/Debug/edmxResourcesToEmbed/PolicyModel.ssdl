@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PolicyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="prcAgeDob" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prccustIDGen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcCustomerDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prcCustomerID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prcCustomerInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerName" Type="varchar" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="telephone" Type="varchar" Mode="In" />
+    <Parameter Name="gender" Type="char" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+    <Parameter Name="smoker" Type="char" Mode="In" />
+    <Parameter Name="hobbies" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcCustomerUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customernumber" Type="varchar" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+    <Parameter Name="gender" Type="char" Mode="In" />
+    <Parameter Name="smoker" Type="varchar" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="telephone" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcEndorsementDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prcEndorsementDetailsCust" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customernumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcEndorsementInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+    <Parameter Name="productType" Type="varchar" Mode="In" />
+    <Parameter Name="productName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredAge" Type="int" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+    <Parameter Name="gender" Type="char" Mode="In" />
+    <Parameter Name="nominee" Type="varchar" Mode="In" />
+    <Parameter Name="relation" Type="varchar" Mode="In" />
+    <Parameter Name="smoker" Type="char" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="telephone" Type="varchar" Mode="In" />
+    <Parameter Name="premiumFrequency" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcEndorsementPolicyIDDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcEndorsementUpdateDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+    <Parameter Name="insuredName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredAge" Type="int" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+    <Parameter Name="gender" Type="char" Mode="In" />
+    <Parameter Name="nominee" Type="varchar" Mode="In" />
+    <Parameter Name="relation" Type="varchar" Mode="In" />
+    <Parameter Name="smoker" Type="char" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="telephone" Type="varchar" Mode="In" />
+    <Parameter Name="premiumFrequency" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcLoginCheck" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userName" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+    <Parameter Name="RES" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="prcLoginDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcLoginGen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+    <Parameter Name="loginID" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcPolicyInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="insuredName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredAge" Type="int" Mode="In" />
+    <Parameter Name="nominee" Type="varchar" Mode="In" />
+    <Parameter Name="relation" Type="varchar" Mode="In" />
+    <Parameter Name="premiumFrequency" Type="varchar" Mode="In" />
+    <Parameter Name="customernumber" Type="varchar" Mode="In" />
+    <Parameter Name="productID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcPolicySearchCust" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcPolicySearchID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcPolicySearchName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerName" Type="varchar" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+  </Function>
+  <Function Name="prcPolicyUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+    <Parameter Name="insuredName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredAge" Type="int" Mode="In" />
+    <Parameter Name="nominee" Type="varchar" Mode="In" />
+    <Parameter Name="relation" Type="varchar" Mode="In" />
+    <Parameter Name="premiumFrequency" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcProductID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcProductInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+    <Parameter Name="productName" Type="varchar" Mode="In" />
+    <Parameter Name="productType" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcStatusupdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="transactionID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="prcStatusUpdateddd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="transactionID" Type="int" Mode="In" />
+    <Parameter Name="currentstatus" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcTransactionDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="transactionID" Type="int" Mode="In" />
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+    <Parameter Name="insuredName" Type="varchar" Mode="In" />
+    <Parameter Name="insuredAge" Type="int" Mode="In" />
+    <Parameter Name="dob" Type="date" Mode="In" />
+    <Parameter Name="gender" Type="char" Mode="In" />
+    <Parameter Name="nominee" Type="varchar" Mode="In" />
+    <Parameter Name="relation" Type="varchar" Mode="In" />
+    <Parameter Name="smoker" Type="varchar" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="telephone" Type="varchar" Mode="In" />
+    <Parameter Name="premiumFrequency" Type="varchar" Mode="In" />
+    <Parameter Name="statusID" Type="int" Mode="In" />
+    <Parameter Name="currentStatus" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcTransactionDetailsID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerNumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prctransactionID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="policyID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prcTransDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="PolicyModelStoreContainer" />
+</Schema>

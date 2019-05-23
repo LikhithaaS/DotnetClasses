@@ -1,0 +1,18 @@
+﻿<Window x:Class="Capgemini.PolicyEndorsement.Application.AdminHomepage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capgemini.PolicyEndorsement.Application"
+        mc:Ignorable="d"
+        Title="AdminHomepage" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add Customer" HorizontalAlignment="Left" Margin="67,42,0,0" VerticalAlignment="Top" Width="210" Height="35" Click="Button_Click"/>
+        <Button Content="Add Policy" HorizontalAlignment="Left" Margin="67,104,0,0" VerticalAlignment="Top" Width="210" Height="35" Click="Button_Click_1"/>
+        <Button Content="Endorsements" HorizontalAlignment="Left" Margin="67,355,0,0" VerticalAlignment="Top" Width="210" Height="37" Click="Button_Click_2"/>
+        <Button Content="Search Policy" HorizontalAlignment="Left" Margin="67,224,0,0" VerticalAlignment="Top" Width="210" Height="40" Click="Button_Click_3"/>
+        <Button Content="Transactions" HorizontalAlignment="Left" Margin="67,298,0,0" VerticalAlignment="Top" Width="210" Height="35" Click="Button_Click_4"/>
+        <Button Content="Add Product" HorizontalAlignment="Left" Margin="67,158,0,0" VerticalAlignment="Top" Width="210" Height="36" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>

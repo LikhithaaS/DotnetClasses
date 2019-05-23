@@ -1,0 +1,50 @@
+﻿<Window x:Class="Capgemini.PolicyEndorsement.Application.EndorsementApprovalPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capgemini.PolicyEndorsement.Application"
+        mc:Ignorable="d"
+        Title="EndorsementApprovalPage" Height="496.562" Width="651.446">
+    <Grid Background="Lavender" Loaded="Grid_Loaded"  Margin="0,0,-8.2,3.2">
+        <Label Content="Transaction ID :" HorizontalAlignment="Left" Margin="40,33,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtTransactionID" HorizontalAlignment="Left" Height="23" Margin="179,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" Background="#FFEEECEC"/>
+        <Label Content="Policy ID :" HorizontalAlignment="Left" Margin="355,36,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtPolicyID" HorizontalAlignment="Left" Height="23" Margin="454,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" TextChanged="TxtPolicyID_TextChanged"  Background="#FFEEECEC"/>
+        <Label Content="Insured Name :" HorizontalAlignment="Left" Margin="40,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Insured Age :" HorizontalAlignment="Left" Margin="40,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date of Birth :" HorizontalAlignment="Left" Margin="40,143,0,0" VerticalAlignment="Top"/>
+        <Label Content="Gender :" HorizontalAlignment="Left" Margin="40,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nominee :" HorizontalAlignment="Left" Margin="40,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="Relation :" HorizontalAlignment="Left" Margin="40,253,0,0" VerticalAlignment="Top"/>
+        <Label Content="Smoker :" HorizontalAlignment="Left" Margin="40,293,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address :" HorizontalAlignment="Left" Margin="40,330,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telephone :" HorizontalAlignment="Left" Margin="40,373,0,0" VerticalAlignment="Top"/>
+        <Label Content="Premium Frequency :" HorizontalAlignment="Left" Margin="40,407,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtPreFreq" HorizontalAlignment="Left" Height="23" Margin="179,410,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtTelephone" HorizontalAlignment="Left" Height="23" Margin="179,374,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtAddress" HorizontalAlignment="Left" Height="26" Margin="179,330,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtSmoker" HorizontalAlignment="Left" Height="23" Margin="179,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtRelation" HorizontalAlignment="Left" Height="23" Margin="179,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtNominee" HorizontalAlignment="Left" Height="23" Margin="179,217,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtGender" HorizontalAlignment="Left" Height="23" Margin="179,182,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtDob" HorizontalAlignment="Left" Height="23" Margin="179,143,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtInsuredAge" HorizontalAlignment="Left" Height="23" Margin="179,106,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtInsuredName" HorizontalAlignment="Left" Height="23" Margin="179,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtInsuredNameOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtInsuredAgeOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,106,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtDobOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,143,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtGenderOrig" IsReadOnly="True"  HorizontalAlignment="Left" Height="23" Margin="355,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtNomineeOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,217,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtRelationOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtSmokerOrig" IsReadOnly="True"  HorizontalAlignment="Left" Height="23" Margin="355,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtAddresOrig" IsReadOnly="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="23" Margin="355,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtTeleOrig" IsReadOnly="True"  HorizontalAlignment="Left" Height="23" Margin="355,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <TextBox Name="txtPrFreqOrig" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="355,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+        <Button Content="Accept" Name="btnAccept" HorizontalAlignment="Left" Margin="532,242,0,0" VerticalAlignment="Top" Width="75" Click="BtnAccept_Click" />
+        <Button Content="Reject" Name="btnReject" HorizontalAlignment="Left" Margin="532,295,0,0" VerticalAlignment="Top" Width="75" Click="BtnReject_Click" />
+        <Label Content="Status :" HorizontalAlignment="Left" Margin="536,125,0,0" VerticalAlignment="Top"/>
+        <TextBox IsReadOnly="True" Name="txtStatus" HorizontalAlignment="Left" Height="23" Margin="536,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Background="White" />
+        <TextBox Name="txtCustnum" HorizontalAlignment="Left" Height="23" IsReadOnly="True" Margin="510,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEEECEC"/>
+    </Grid>
+</Window>

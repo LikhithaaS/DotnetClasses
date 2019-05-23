@@ -1,0 +1,31 @@
+﻿<Window x:Class="Capgemini.PolicyEndorsement.Application.AddPolicy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capgemini.PolicyEndorsement.Application"
+        mc:Ignorable="d"
+        Title="AddPolicy" Height="378.878" Width="371.922">
+    <Grid Background="Lavender" Loaded="Grid_Loaded">
+        <Label Content="Insured Name     :" HorizontalAlignment="Left" Margin="36,103,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Insured Age      :" HorizontalAlignment="Left" Margin="34,146,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Nominee          :" HorizontalAlignment="Left" Margin="34,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Relation         :" HorizontalAlignment="Left" Margin="34,222,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Premium Frequency:" HorizontalAlignment="Left" Margin="36,255,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="ProductID         :" HorizontalAlignment="Left" Margin="34,65,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Customer Number  :" HorizontalAlignment="Left" Margin="36,29,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox Name="cmbCustomerNumber" HorizontalAlignment="Left" Margin="174,29,0,0" VerticalAlignment="Top" Width="120" DropDownClosed="CmbCustomerNumber_DropDownClosed"/>
+        <ComboBox Name="cmbProductID" HorizontalAlignment="Left" Margin="174,65,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtInsuredName" HorizontalAlignment="Left" Height="23" Margin="174,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtInsuredAge" HorizontalAlignment="Left" Height="23" Margin="174,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtNominee" HorizontalAlignment="Left" Height="23" Margin="174,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtRelation" HorizontalAlignment="Left" Height="23" Margin="174,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton Name="rdMon" Content="Monthly" HorizontalAlignment="Left" Margin="174,255,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rdHalfY" Content="Half-Yearly" HorizontalAlignment="Left" Margin="259,258,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rdQuat" Content="Quaterly" HorizontalAlignment="Left" Margin="174,281,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rdAnnu" Content="Annually" HorizontalAlignment="Left" Margin="259,281,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="85,313,0,0" VerticalAlignment="Top" Width="75" Click="BtnSubmit_Click"/>
+        <Button Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="219,313,0,0" VerticalAlignment="Top" Width="75" Click="BtnClear_Click"/>
+
+    </Grid>
+</Window>

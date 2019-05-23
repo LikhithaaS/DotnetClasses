@@ -1,0 +1,15 @@
+﻿<Window x:Class="Capgemini.PolicyEndorsement.Application.CustomerHomepage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capgemini.PolicyEndorsement.Application"
+        mc:Ignorable="d"
+        Title="CustomerHomepage" Height="450" Width="800">
+    <Grid Background="Lavender">
+        <TextBox Name="txtCustNum" HorizontalAlignment="Left" Height="23" Margin="578,27,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button Name="txtSearchandUpdate" Content="Search and Update Policy" HorizontalAlignment="Left" Margin="50,69,0,0" VerticalAlignment="Top" Width="192" Height="32" Click="TxtSearchandUpdate_Click"/>
+        <Button Name="txtViewEndorse" Content="View Endorsement" HorizontalAlignment="Left" Margin="50,153,0,0" VerticalAlignment="Top" Width="192" Height="30" Click="TxtViewEndorse_Click"/>
+        <Button Name="txtStatus" Content="Status of Endorsement" HorizontalAlignment="Left" Margin="50,230,0,0" VerticalAlignment="Top" Width="192" Height="35" Click="TxtStatus_Click"/>
+    </Grid>
+</Window>

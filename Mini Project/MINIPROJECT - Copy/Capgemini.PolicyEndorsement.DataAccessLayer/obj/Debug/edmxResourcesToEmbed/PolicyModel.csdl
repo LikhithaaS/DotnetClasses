@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PolicyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PolicyEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="prcAgeDob" ReturnType="Collection(Int32)">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prccustIDGen" ReturnType="Collection(String)">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcCustomerDetails" ReturnType="Collection(PolicyModel.prcCustomerDetails_Result)" />
+    <FunctionImport Name="prcCustomerID" ReturnType="Collection(String)" />
+    <FunctionImport Name="prcCustomerInsert">
+      <Parameter Name="customerName" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="telephone" Mode="In" Type="String" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+      <Parameter Name="smoker" Mode="In" Type="String" />
+      <Parameter Name="hobbies" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcCustomerUpdate">
+      <Parameter Name="customernumber" Mode="In" Type="String" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="smoker" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="telephone" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcEndorsementDetails" ReturnType="Collection(PolicyModel.prcEndorsementDetails_Result)" />
+    <FunctionImport Name="prcEndorsementDetailsCust" ReturnType="Collection(PolicyModel.prcEndorsementDetailsCust_Result)">
+      <Parameter Name="customernumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcEndorsementInsert">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+      <Parameter Name="productType" Mode="In" Type="String" />
+      <Parameter Name="productName" Mode="In" Type="String" />
+      <Parameter Name="insuredName" Mode="In" Type="String" />
+      <Parameter Name="insuredAge" Mode="In" Type="Int32" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="nominee" Mode="In" Type="String" />
+      <Parameter Name="relation" Mode="In" Type="String" />
+      <Parameter Name="smoker" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="telephone" Mode="In" Type="String" />
+      <Parameter Name="premiumFrequency" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcEndorsementPolicyIDDetails" ReturnType="Collection(PolicyModel.prcEndorsementPolicyIDDetails_Result)">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcEndorsementUpdateDetails">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+      <Parameter Name="insuredName" Mode="In" Type="String" />
+      <Parameter Name="insuredAge" Mode="In" Type="Int32" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="nominee" Mode="In" Type="String" />
+      <Parameter Name="relation" Mode="In" Type="String" />
+      <Parameter Name="smoker" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="telephone" Mode="In" Type="String" />
+      <Parameter Name="premiumFrequency" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcLoginCheck">
+      <Parameter Name="userName" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="RES" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcLoginDetails" ReturnType="Collection(PolicyModel.prcLoginDetails_Result)">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcLoginGen">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+      <Parameter Name="loginID" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcPolicyInsert">
+      <Parameter Name="insuredName" Mode="In" Type="String" />
+      <Parameter Name="insuredAge" Mode="In" Type="Int32" />
+      <Parameter Name="nominee" Mode="In" Type="String" />
+      <Parameter Name="relation" Mode="In" Type="String" />
+      <Parameter Name="premiumFrequency" Mode="In" Type="String" />
+      <Parameter Name="customernumber" Mode="In" Type="String" />
+      <Parameter Name="productID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcPolicySearchCust" ReturnType="Collection(PolicyModel.prcPolicySearchCust_Result)">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcPolicySearchID" ReturnType="Collection(PolicyModel.prcPolicySearchID_Result)">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcPolicySearchName" ReturnType="Collection(PolicyModel.prcPolicySearchName_Result)">
+      <Parameter Name="customerName" Mode="In" Type="String" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="prcPolicyUpdate">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+      <Parameter Name="insuredName" Mode="In" Type="String" />
+      <Parameter Name="insuredAge" Mode="In" Type="Int32" />
+      <Parameter Name="nominee" Mode="In" Type="String" />
+      <Parameter Name="relation" Mode="In" Type="String" />
+      <Parameter Name="premiumFrequency" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcProductID" ReturnType="Collection(String)">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcProductInsert">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+      <Parameter Name="productName" Mode="In" Type="String" />
+      <Parameter Name="productType" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcStatusupdate">
+      <Parameter Name="transactionID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcStatusUpdateddd">
+      <Parameter Name="transactionID" Mode="In" Type="Int32" />
+      <Parameter Name="currentstatus" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcTransactionDetails">
+      <Parameter Name="transactionID" Mode="In" Type="Int32" />
+      <Parameter Name="policyID" Mode="In" Type="String" />
+      <Parameter Name="insuredName" Mode="In" Type="String" />
+      <Parameter Name="insuredAge" Mode="In" Type="Int32" />
+      <Parameter Name="dob" Mode="In" Type="DateTime" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="nominee" Mode="In" Type="String" />
+      <Parameter Name="relation" Mode="In" Type="String" />
+      <Parameter Name="smoker" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="telephone" Mode="In" Type="String" />
+      <Parameter Name="premiumFrequency" Mode="In" Type="String" />
+      <Parameter Name="statusID" Mode="In" Type="Int32" />
+      <Parameter Name="currentStatus" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcTransactionDetailsID" ReturnType="Collection(PolicyModel.prcTransactionDetailsID_Result)">
+      <Parameter Name="customerNumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prctransactionID" ReturnType="Collection(Int32)">
+      <Parameter Name="policyID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="prcTransDetails" ReturnType="Collection(PolicyModel.prcTransDetails_Result)" />
+  </EntityContainer>
+  <ComplexType Name="prcCustomerDetails_Result">
+    <Property Type="String" Name="CustomerNumber" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="CustomerName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Address" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Hobbies" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="CreateID" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="UpdateID" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="UpdateDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="prcEndorsementDetails_Result">
+    <Property Type="Int32" Name="TransactionID" Nullable="true" />
+    <Property Type="String" Name="PolicyID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="InsuredName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="true" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="StatusID" Nullable="false" />
+    <Property Type="String" Name="CurrentStatus" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="prcEndorsementDetailsCust_Result">
+    <Property Type="Int32" Name="TransactionID" Nullable="true" />
+    <Property Type="String" Name="PolicyID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="InsuredName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="true" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="StatusID" Nullable="false" />
+    <Property Type="String" Name="CurrentStatus" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="prcEndorsementPolicyIDDetails_Result">
+    <Property Type="Int32" Name="TransactionID" Nullable="true" />
+    <Property Type="String" Name="PolicyID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="InsuredName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="true" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="StatusID" Nullable="false" />
+    <Property Type="String" Name="CurrentStatus" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="prcLoginDetails_Result">
+    <Property Type="String" Name="LoginID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CustomerNumber" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="prcPolicySearchCust_Result">
+    <Property Type="String" Name="PolicyID" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ProductID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="ProductType" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="ProductName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InsuredName" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="false" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="prcPolicySearchID_Result">
+    <Property Type="String" Name="PolicyID" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ProductID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="ProductType" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="ProductName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InsuredName" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="false" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="prcPolicySearchName_Result">
+    <Property Type="String" Name="PolicyID" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ProductID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="ProductType" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="ProductName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InsuredName" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="false" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="prcTransactionDetailsID_Result">
+    <Property Type="Int32" Name="TransactionID" Nullable="true" />
+    <Property Type="String" Name="PolicyID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="InsuredName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="true" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="StatusID" Nullable="true" />
+    <Property Type="String" Name="CurrentStatus" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="prcTransDetails_Result">
+    <Property Type="Int32" Name="TransactionID" Nullable="true" />
+    <Property Type="String" Name="PolicyID" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="InsuredName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="InsuredAge" Nullable="true" />
+    <Property Type="DateTime" Name="Dob" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Nominee" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Relation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Smoker" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="Telephone" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PremiumFrequency" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="StatusID" Nullable="true" />
+    <Property Type="String" Name="CurrentStatus" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

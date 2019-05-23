@@ -1,0 +1,23 @@
+﻿<Window x:Class="Capgemini.PolicyEndorsement.Application.AddProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capgemini.PolicyEndorsement.Application"
+        mc:Ignorable="d"
+        Title="AddProducts" Height="341.729" Width="348.308">
+    <Grid Background="Lavender" Loaded="Grid_Loaded">
+        <Label Content="Customer Number :" HorizontalAlignment="Left" Margin="35,47,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Product Name    :" HorizontalAlignment="Left" Margin="35,107,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Product Type    :" HorizontalAlignment="Left" Margin="35,171,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="62,248,0,0" VerticalAlignment="Top" Width="75" Click="BtnSubmit_Click"/>
+        <Button Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="219,248,0,0" VerticalAlignment="Top" Width="75" Click="Clear_Click"/>
+        <ComboBox Name="cmbCustomerNo" HorizontalAlignment="Left" Margin="189,51,0,0" VerticalAlignment="Top" Width="120" AutomationProperties.IsRequiredForForm="True">
+            <ComboBox.BindingGroup>
+                <BindingGroup/>
+            </ComboBox.BindingGroup>
+        </ComboBox>
+        <TextBox Name="txtProductName" HorizontalAlignment="Left" Height="23" Margin="189,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="cmbProductType" HorizontalAlignment="Left" Margin="189,175,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

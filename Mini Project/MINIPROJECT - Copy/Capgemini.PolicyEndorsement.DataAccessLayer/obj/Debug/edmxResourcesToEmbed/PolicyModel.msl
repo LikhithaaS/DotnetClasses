@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PolicyModelStoreContainer" CdmEntityContainer="PolicyEntities">
+    <FunctionImportMapping FunctionImportName="prcAgeDob" FunctionName="PolicyModel.Store.prcAgeDob" />
+    <FunctionImportMapping FunctionImportName="prccustIDGen" FunctionName="PolicyModel.Store.prccustIDGen" />
+    <FunctionImportMapping FunctionImportName="prcCustomerDetails" FunctionName="PolicyModel.Store.prcCustomerDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcCustomerDetails_Result">
+          <ScalarProperty Name="CustomerNumber" ColumnName="CustomerNumber" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="CreateID" ColumnName="CreateID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateID" ColumnName="UpdateID" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcCustomerID" FunctionName="PolicyModel.Store.prcCustomerID" />
+    <FunctionImportMapping FunctionImportName="prcCustomerInsert" FunctionName="PolicyModel.Store.prcCustomerInsert" />
+    <FunctionImportMapping FunctionImportName="prcCustomerUpdate" FunctionName="PolicyModel.Store.prcCustomerUpdate" />
+    <FunctionImportMapping FunctionImportName="prcEndorsementDetails" FunctionName="PolicyModel.Store.prcEndorsementDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcEndorsementDetails_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CurrentStatus" ColumnName="CurrentStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcEndorsementDetailsCust" FunctionName="PolicyModel.Store.prcEndorsementDetailsCust">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcEndorsementDetailsCust_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CurrentStatus" ColumnName="CurrentStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcEndorsementInsert" FunctionName="PolicyModel.Store.prcEndorsementInsert" />
+    <FunctionImportMapping FunctionImportName="prcEndorsementPolicyIDDetails" FunctionName="PolicyModel.Store.prcEndorsementPolicyIDDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcEndorsementPolicyIDDetails_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CurrentStatus" ColumnName="CurrentStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcEndorsementUpdateDetails" FunctionName="PolicyModel.Store.prcEndorsementUpdateDetails" />
+    <FunctionImportMapping FunctionImportName="prcLoginCheck" FunctionName="PolicyModel.Store.prcLoginCheck" />
+    <FunctionImportMapping FunctionImportName="prcLoginDetails" FunctionName="PolicyModel.Store.prcLoginDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcLoginDetails_Result">
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CustomerNumber" ColumnName="CustomerNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcLoginGen" FunctionName="PolicyModel.Store.prcLoginGen" />
+    <FunctionImportMapping FunctionImportName="prcPolicyInsert" FunctionName="PolicyModel.Store.prcPolicyInsert" />
+    <FunctionImportMapping FunctionImportName="prcPolicySearchCust" FunctionName="PolicyModel.Store.prcPolicySearchCust">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcPolicySearchCust_Result">
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcPolicySearchID" FunctionName="PolicyModel.Store.prcPolicySearchID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcPolicySearchID_Result">
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcPolicySearchName" FunctionName="PolicyModel.Store.prcPolicySearchName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcPolicySearchName_Result">
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcPolicyUpdate" FunctionName="PolicyModel.Store.prcPolicyUpdate" />
+    <FunctionImportMapping FunctionImportName="prcProductID" FunctionName="PolicyModel.Store.prcProductID" />
+    <FunctionImportMapping FunctionImportName="prcProductInsert" FunctionName="PolicyModel.Store.prcProductInsert" />
+    <FunctionImportMapping FunctionImportName="prcStatusupdate" FunctionName="PolicyModel.Store.prcStatusupdate" />
+    <FunctionImportMapping FunctionImportName="prcStatusUpdateddd" FunctionName="PolicyModel.Store.prcStatusUpdateddd" />
+    <FunctionImportMapping FunctionImportName="prcTransactionDetails" FunctionName="PolicyModel.Store.prcTransactionDetails" />
+    <FunctionImportMapping FunctionImportName="prcTransactionDetailsID" FunctionName="PolicyModel.Store.prcTransactionDetailsID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcTransactionDetailsID_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CurrentStatus" ColumnName="CurrentStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prctransactionID" FunctionName="PolicyModel.Store.prctransactionID" />
+    <FunctionImportMapping FunctionImportName="prcTransDetails" FunctionName="PolicyModel.Store.prcTransDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PolicyModel.prcTransDetails_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsuredName" ColumnName="InsuredName" />
+          <ScalarProperty Name="InsuredAge" ColumnName="InsuredAge" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Nominee" ColumnName="Nominee" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="PremiumFrequency" ColumnName="PremiumFrequency" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CurrentStatus" ColumnName="CurrentStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
